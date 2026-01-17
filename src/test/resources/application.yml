@@ -1,0 +1,10 @@
+spring:
+
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+  mail:
+    host: localhost
+    port: 3025 # Порт для GreenMail по умолчанию
